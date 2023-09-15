@@ -32,7 +32,7 @@ function listarAbrigos() {
         console.log("Cidade: " + abrigos[i].cidade)
         console.log("Telefone: " + abrigos[i].telefone)
         console.log("Capacidade: " + abrigos[i].capacidade)
-        console.log("-------------------------")
+        console.log("-----------------------------------------------")
     }
 }
 
@@ -48,7 +48,7 @@ function buscarAbrigo() {
             console.log("Endereço: " + abrigos[i].endereco)
             console.log("Telefone: " + abrigos[i].telefone)
             console.log("Capacidade: " + abrigos[i].capacidade)
-            console.log("-------------------------")
+            console.log("-----------------------------------------------")
         }
     }
 }
@@ -114,6 +114,6 @@ while (continuar) {
     break;
         default:
         console.log("Opção inválida. Tente novamente.");
-        console.log("-------------------------");
+        console.log("-----------------------------------------------");
     }
 }
