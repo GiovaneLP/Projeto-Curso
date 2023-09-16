@@ -2,6 +2,16 @@
 let continuar = true
 let abrigos = []
 
+let abrigo1 = {
+    nome: 'Deus',
+    endereco: 'Av. Tharcilo Nunes, 715, Santo Andre',
+    cidade: 'São Leopoldo',
+    telefone: '(51) 992998272',
+    capacidade: 50
+}
+
+abrigos.push(abrigo1)
+
 // Função para cadastrar abrigo
 function cadastrarAbrigo() {
     let nome = prompt("Digite o nome do abrigo:")
