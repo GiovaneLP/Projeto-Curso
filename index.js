@@ -3,14 +3,62 @@ let continuar = true
 let abrigos = []
 
 let abrigo1 = {
-    nome: 'Deus',
-    endereco: 'Av. Tharcilo Nunes, 715, Santo Andre',
-    cidade: 'São Leopoldo',
-    telefone: '(51) 992998272',
-    capacidade: 50
+    nome: 'Centro de Apoio a Criança e Adolescente',
+    endereco: 'Rua Carlos Gomes, 555, Centro Norte',
+    cidade: 'Santo Ângelo',
+    telefone: '(55) 3312-5770',
+    capacidade: 21
 }
 
-abrigos.push(abrigo1)
+let abrigo2 = {
+    nome: 'Casa de Acolhimento para Crianças e Adolescentes',
+    endereco: 'Rua Medianeira, 91, Cristo Rei',
+    cidade: 'São Leopoldo',
+    telefone: '(51) 99910-9917',
+    capacidade: '?'
+}
+
+let abrigo3 = {
+    nome: 'Casa Caminho Clara e Francisco',
+    endereco: 'Corte Real, 180, Sharlau',
+    cidade: 'São Leopoldo',
+    telefone: '(51) 99545-2996',
+    capacidade: 21
+}
+
+let abrigo4 = {
+    nome: 'Casa Aberta Padre Cândido Santini',
+    endereco: 'Rua Artur Georg, 90, Feitoria Nova',
+    cidade: 'São Leopoldo',
+    telefone: '(51) 3575-4831',
+    capacidade: 45
+}
+
+let abrigo5 = {
+    nome: 'Casa João Bosco - Antigo Lar da Menina',
+    endereco: 'Rua Amantino Antonio Peteffi, 244, São Jorge',
+    cidade: 'Novo Hamburgo',
+    telefone: '51-99216-4516',
+    capacidade: 20
+}
+
+let abrigo6 = {
+    nome: 'Associação do Adolescente Nova Vida',
+    endereco: 'Rua Marcício J. Pereira, 120, Primavera',
+    cidade: 'Novo Hamburgo',
+    telefone: '51-99216-4516',
+    capacidade: '?'
+}
+
+let abrigo7 = {
+    nome: 'Casa Abrigo das Meninas Querubim',
+    endereco: 'Rua Presidente Lucena, 3021, Primavera',
+    cidade: 'Novo Hamburgo',
+    telefone: '51-99216-4516',
+    capacidade: '?'
+}
+
+abrigos.push(abrigo1, abrigo2, abrigo3, abrigo4, abrigo5, abrigo6, abrigo7)
 
 // Função para cadastrar abrigo
 function cadastrarAbrigo() {
@@ -42,7 +90,7 @@ function listarAbrigos() {
         console.log("Cidade: " + abrigos[i].cidade)
         console.log("Telefone: " + abrigos[i].telefone)
         console.log("Capacidade: " + abrigos[i].capacidade)
-        console.log("-----------------------------------------------")
+        console.log("--------------------------------------------------------")
     }
 }
 
@@ -58,7 +106,7 @@ function buscarAbrigo() {
             console.log("Endereço: " + abrigos[i].endereco)
             console.log("Telefone: " + abrigos[i].telefone)
             console.log("Capacidade: " + abrigos[i].capacidade)
-            console.log("-----------------------------------------------")
+            console.log("--------------------------------------------------------")
         }
     }
 }
@@ -124,6 +172,6 @@ while (continuar) {
     break;
         default:
         console.log("Opção inválida. Tente novamente.");
-        console.log("-----------------------------------------------");
+        console.log("--------------------------------------------------------");
     }
 }
