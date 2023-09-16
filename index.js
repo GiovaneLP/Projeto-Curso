@@ -38,7 +38,7 @@ let abrigo5 = {
     nome: 'Casa João Bosco - Antigo Lar da Menina',
     endereco: 'Rua Amantino Antonio Peteffi, 244, São Jorge',
     cidade: 'Novo Hamburgo',
-    telefone: '51-99216-4516',
+    telefone: '(51) 99216-4516',
     capacidade: 20
 }
 
@@ -46,7 +46,7 @@ let abrigo6 = {
     nome: 'Associação do Adolescente Nova Vida',
     endereco: 'Rua Marcício J. Pereira, 120, Primavera',
     cidade: 'Novo Hamburgo',
-    telefone: '51-99216-4516',
+    telefone: '(51) 99216-4516',
     capacidade: '?'
 }
 
@@ -54,7 +54,7 @@ let abrigo7 = {
     nome: 'Casa Abrigo das Meninas Querubim',
     endereco: 'Rua Presidente Lucena, 3021, Primavera',
     cidade: 'Novo Hamburgo',
-    telefone: '51-99216-4516',
+    telefone: '(51) 99216-4516',
     capacidade: '?'
 }
 
